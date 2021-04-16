@@ -1,4 +1,4 @@
-if SLICE_LEFT
+if SHIELD_SLICE_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Left Slice"
@@ -8,14 +8,14 @@ config ZMK_SPLIT_BLE_ROLE_CENTRAL
 
 endif
 
-if SLICE_RIGHT
+if SHIELD_SLICE_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Right Slice"
 
 endif
 
-if SLICE_LEFT || SLICE_RIGHT
+if SHIELD_SLICE_LEFT || SHIELD_SLICE_RIGHT
 
 config ZMK_SPLIT
     default y
