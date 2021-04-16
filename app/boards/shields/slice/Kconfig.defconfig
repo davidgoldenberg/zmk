@@ -1,0 +1,23 @@
+if SLICE_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Left Slice"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
+endif
+
+if SLICE_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Right Slice"
+
+endif
+
+if SLICE_LEFT || SLICE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

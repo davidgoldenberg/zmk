@@ -1,0 +1,5 @@
+config SLICE_LEFT
+    def_bool $(shields_list_contains,slice_left)
+
+config SLICE_RIGHT
+    def_bool $(shields_list_contains,slice_right)

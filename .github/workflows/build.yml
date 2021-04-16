@@ -54,6 +54,7 @@ jobs:
           - romac
           - romac_plus
           - settings_reset
+          - slice
           - sofle_left
           - sofle_right
           - splitreus62_left
